@@ -275,7 +275,7 @@ ephone 2
    call start slow
 end
 
-!!@@allow incoming calls
+!!@@@allow incoming calls
 configure terminal
 voice service voip
 ip address trusted list
@@ -420,7 +420,7 @@ network 10.41.100.0  0.0.0.255  area 0
 end
 
 EXAM READY DAY1: NAT, NTP, DHCP, and SSH
-NAT: NETWORK ADDRESS TRANSLATION: BIGAY INTERNET SA MUNDO NI CISCO.
+NAT: NETWORK ADDRESS TRANSLATION: BIGAY INTERNET SA MUNDO NI CISCO...
 config t
 ip route 0.0.0.0 0.0.0.0 200.0.0.1
 access-list 1 permit Any
@@ -464,7 +464,7 @@ conf t
  NO ip route 10.41.0.0 255.255.0.0 200.0.0.41
  end
  
-*********************************************
+****************************************************
 Layer three/3 switch ROUTING = 300k up!!!
 @SWITCH/COREBABA
 !SI SWITCH ASA/DIKIT KAY EDGE PARA MAKALABAS
